@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Catch The Predator</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Predator</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>What is your "favorite" predator?</h1>
+      <ul class="predator-list">
+        <li>
+          <button class="choose-predator-btn">
+            <p>Tiger</p>
+            <img src="./images/tiger.png" alt="tiger">
+          </button>
+        </li>
+        <li>
+          <button class="choose-predator-btn">
+            <p>Lion</p>
+            <img
+               src="./images/lion.png"
+               alt="lion"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-predator-btn">
+            <p>Leopard</p>
+            <img
+               src="./images/leopard.png"
+               alt="leopard"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-predator-btn">
+            <p>Cheetah</p>
+            <img
+               src="./images/cheetah.png"
+               alt="cheetah"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Have you given up yet? <br>
+        You are playing a unbeatable game!!
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
